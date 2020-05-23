@@ -1,0 +1,22 @@
+{
+  "name": "react-native-auto-toast",
+  "version": "1.0.2",
+  "description": "안드로이드 toast",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leeyonghe/react-native-auto-toast.git"
+  },
+  "keywords": [
+    "toast"
+  ],
+  "author": "davidlee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leeyonghe/react-native-auto-toast/issues"
+  },
+  "homepage": "https://github.com/leeyonghe/react-native-auto-toast#readme"
+}
