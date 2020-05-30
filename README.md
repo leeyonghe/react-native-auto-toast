@@ -2,6 +2,7 @@
 - 선언 <br>
 import Toast from 'react-native-auto-toast'; <br> <br>
 - 사용 <br>
+<pre>
 <code>
 <View>
 <Toast ref="toast" backgroundColor="#000000" opacitys="0.5"/>
@@ -10,3 +11,4 @@ import Toast from 'react-native-auto-toast'; <br> <br>
     <Text>Confirm</Text>
 </TouchableOpacity>
 </code>
+</pre>
