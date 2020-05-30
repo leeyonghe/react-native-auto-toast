@@ -2,9 +2,11 @@
 - 선언 <br>
 import Toast from 'react-native-auto-toast'; <br> <br>
 - 사용 <br>
-<View> <br>
-<Toast ref="toast"/> <br>
-</View> <br>
-<TouchableOpacity onPress={() => {this.refs.toast.show('Confirm!');}}> <br>
-    <Text>Confirm</Text> <br>
-</TouchableOpacity> <br>
+<code>
+<View>
+<Toast ref="toast" backgroundColor="#000000" opacitys="0.5"/>
+</View>
+<TouchableOpacity onPress={() => {this.refs.toast.show('Confirm!');}}>
+    <Text>Confirm</Text>
+</TouchableOpacity>
+</code>
