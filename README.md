@@ -1,7 +1,7 @@
 # react-native-auto-toast
 - 선언 <br>
 ```
-import Toast from 'react-native-auto-toast'; <br> <br>
+import Toast from 'react-native-auto-toast';
 ```
 - 사용 <br>
 ```

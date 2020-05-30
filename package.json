@@ -1,6 +1,6 @@
 {
   "name": "react-native-auto-toast",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "안드로이드 toast",
   "main": "index.js",
   "scripts": {
