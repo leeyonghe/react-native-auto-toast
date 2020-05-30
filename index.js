@@ -35,6 +35,8 @@ export default class Toast extends Component {
             isShow: false,
             text: '',
             opacityValue: new Animated.Value(this.props.opacity),
+            opacity: this.props.opacity,
+            backgroundColor: this.props.backgroundColor,
         }
     }
 
@@ -115,7 +117,7 @@ export default class Toast extends Component {
                 <Animated.View
                     style={[styles.content, { opacity: this.state.opacityValue }, this.props.style]}>
 
-                    <View style={{backgroundColor: 'black',borderRadius: 5,padding: 10, position: 'absolute', left:0, top:0, right:0, bottom:0, opacity:0.5}}></View>
+                    <View style={{backgroundColor: this.state.backgroundColor, borderRadius: 5, padding: 10, position: 'absolute', left:0, top:0, right:0, bottom:0, opacity: parseFloat(this.state.opacity)}}></View>
 
                     {React.isValidElement(this.state.text) ? this.state.text : <Text style={this.props.textStyle}>{this.state.text}</Text>}
 
